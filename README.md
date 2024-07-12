@@ -9,14 +9,14 @@
 - static data(videos, images, files)
 
 ### Problems with server serving html pages
-    - The server cannot be at all regions which might slow down the speed with which html pages are rendered depending on location   
-    - Some content has to be served locally according to specific region(some movies might be banned in some regions). 
+- The server cannot be at all regions which might slow down the speed with which html pages are rendered depending on location   
+- Some content has to be served locally according to specific region(some movies might be banned in some regions). 
 ### Solution
-    - CDN - we can move cache to specific locations, this cache is actually a server. All these small servers have a mother server.
-    - close to user
-    - follow regulations
-    - content update from server
-    - e.g, Amaazon CloudFront(Integration with amazon S3) - cheap, reliable, easy to use.
+- CDN - we can move cache to specific locations, this cache is actually a server. All these small servers have a mother server.
+- close to user
+- follow regulations
+- content update from server
+- e.g, Amaazon CloudFront(Integration with amazon S3) - cheap, reliable, easy to use.
 
 ## Low Level System Design Patterns
 
