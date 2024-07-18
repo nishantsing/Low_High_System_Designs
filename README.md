@@ -1,6 +1,8 @@
 # Low_High_System_Designs
 
 - Some low and high level system design notes
+- [SD Components](https://interviewready.io/blog/system-design-component-examples)
+- [Gaurav Sen paid course](https://interviewready.io/course-page/system-design-course)
 
 ## CDN(Content Delivery Networks)
 
