@@ -20,6 +20,21 @@
 - content update from server
 - e.g, Amaazon CloudFront(Integration with amazon S3) - cheap, reliable, easy to use.
 
+
+## Distributed Systems
+
+### Caching - user to server(similar user we store it in local memory and return the data)
+#### Cache Policy (LRU, LFU)
+- Poor hit rate of cache effect the query time.(Thrashing- increases latency)
+- Eventual Consistency - when to update the cache with the latest value from database.
+- Cache placement
+### Load Balancer - Scaling Horizontally with several servers rather than a single powerful computer(Horizontal Scaling)
+#### Algos
+  - Round-Robin (1 by 1 to all the servers)
+  - Geo-based (depending on regions)
+  - Least Connections (state is managed, routes to least number of connection)
+  - Hybrid(like geo used for the server than round robin for the service)
+
 ## Low Level System Design Patterns
 
 ### Creational Design Pattern
