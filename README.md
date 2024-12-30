@@ -4,6 +4,10 @@
 - [SD Components](https://interviewready.io/blog/system-design-component-examples)
 - [Gaurav Sen paid course](https://interviewready.io/course-page/system-design-course)
 
+## Blogs
+- [SOLID Principles](https://blog.algomaster.io/p/solid-principles-explained-with-code)
+- [Design a URL Shortener - System Design Interview](https://blog.algomaster.io/p/design-a-url-shortener)
+
 ## CDN(Content Delivery Networks)
 
 - faster and cheaper
